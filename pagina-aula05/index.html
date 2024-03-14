@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Validação</title>
+</head>
+<body>
+        <h3>Formulário de envio de E-mail</h3>
+        <form action="" onsubmit="return enviardados()">
+            <table>               
+                <tr>
+                    <td>Nome completo</td>
+                    <td><input name="tx_nome" type="text" id="tx_nome" size="29" maxlength="150"></td>
+                </tr>
+                <tr>
+                    <td>E-mail</td>
+                    <td><input name="tx_email" type="text" id="tx_email" size="29" maxlength="150"></td>
+                </tr>
+                <tr>
+                    <td>Mensagem</td>
+                    <td><textarea name="tx_mensagem" id="tx_mensagem" cols="30" rows="8" ></textarea></td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td>
+                        <input type="submit">
+                        <input type="reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <script>
+            function enviardados(){
+                //window.alert("enviado!!!")
+                //validar o formulário java script
+            }
+        </script>
+
+</body>
+</html>
